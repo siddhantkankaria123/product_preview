@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: #F7EFE5;
+    /* position: relative; */
+}
+
+#container{
+    height: 450px;
+    width: 670px;
+    border: 1px solid none;
+    position: absolute;
+    border-radius: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+    /* margin-left: -335px ;
+    margin-top: -225px; */
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    border-radius: 4% 0 0 4%;
+}
+.container-text{
+    background-color: white;
+       width: 50%;
+       height: 50%;
+       float: right; 
+       border-radius: 0 4% 4% 0;   
+}
+.container1{
+    margin: 10% 0 4% 7%;
+}
+.container-perfume{
+     color: #00425A;
+     letter-spacing: 4px;
+     font-size: 1.3rem;
+}
+h3{
+    font-family: "Fraunces";
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 5% 7% 0 7%; 
+}  
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 8% 7% 0 7%;  
+}
+#price{
+    color: #1F8A70;
+    font-family: "Fraunces";
+    font-size: 2rem;
+    margin: 5% 0 0 7%;
+}
+.button1{
+    background-color:  #1F8A70;
+    font-family: "Fraunces";
+    padding: 4% 22% 4% 22%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    word-spacing: 1px;
+    color: white;
+    margin: 10% 4% 8% 4%;   
+    cursor: pointer;
+}
+@media (max-width:998px){
+    #container{
+        height: 95vh;
+        width: 70%;
+        border: 1px solid none;
+         
+        overflow: hidden;
+        /* margin-left: -335px ;
+        margin-top: -225px; */
+    }
+    .container-detail{
+        display: flex;
+        height: 90vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0px;
+    }
+    img{
+        height: 40vh;
+        width: 100%;
+        object-fit:fill;
+        border-radius: 0px;
+    }
+    .container-text{
+        border-radius: 0px;
+        height: 50vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .container1{
+      margin: 0;
+      height: 45vh;
+    }
+    
+    .container-perfume{
+        color: #00425A;
+        letter-spacing: 4px;
+        font-size: 20px;
+        width: 100%;
+        margin: 5px 0 3px 10px;
+        overflow: hidden;
+   }
+   h3{
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 18px 12px 10px 18px; 
+    }
+    p{
+        color: black;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 5px 12px 3px 25px; 
+        padding: 10px 0 10px 0; 
+    }
+    #price{
+        color: #1F8A70;
+        font-family: "Fraunces";
+        font-size: 28px;
+        margin-left: 25px;
+        margin-top: 2px;
+    }
+    .button1{
+        background-color:  #1F8A70;
+        font-family: "Fraunces"; 
+        font-size: 14px;
+        color: white;  
+        cursor: pointer;
+        margin-top: 18px;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        
+    }  
+}
+
